@@ -2,4 +2,5 @@ site_name: My Docs
 
 nav:
   - Home: index.md
-  - Diseño: design/design.md  # Agrega esta línea
+  - Lenguajes: templates/lenguajes/python.md
+  - Diseño: templates/design/design.md  # Agrega esta línea
