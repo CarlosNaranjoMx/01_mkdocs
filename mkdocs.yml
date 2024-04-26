@@ -4,3 +4,4 @@ nav:
   - Home: index.md
   - Lenguajes: templates/lenguajes/python.md
   - Diseño: design/design.md  # Agrega esta línea
+  - So: templates/so/programas.md
