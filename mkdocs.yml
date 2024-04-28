@@ -5,3 +5,6 @@ nav:
   - Lenguajes: lenguajes/python.md
   - Diseño: design/design.md  # Agrega esta línea
   - So: so/programas.md
+
+extra-css:
+  - stylesheet/extra.css
