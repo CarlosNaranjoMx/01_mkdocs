@@ -6,5 +6,5 @@ nav:
   - Diseño: design/design.md  # Agrega esta línea
   - So: so/programas.md
 
-extra-css:
+extra_css:
   - stylesheet/extra.css
