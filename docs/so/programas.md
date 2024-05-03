@@ -21,3 +21,7 @@ choco install pandoc
 ## `visual studio`
 
 [Descargar visual studio version 2022](https://visualstudio.microsoft.com/es/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&passive=false&cid=2030)
+
+[Descargar .Net](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.204-windows-x64-installer)
+
+[Descargar sql server](https://go.microsoft.com/fwlink/?linkid=2215202&clcid=0x80a&culture=es-mx&country=mx)
