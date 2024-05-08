@@ -29,21 +29,12 @@ flowchart TD
 ```
 
 ## 5 Cloud Watch
-<!-- ```mermaid
-flowchart TD
-    G(Cloud Watch) --> H()
-    G --> I()
-    G --> J()
-    G --> K()
-    G --> L()
-    G --> M()
-``` -->
 ```mermaid
 flowchart TD
     G(Cloud Watch) --> H(Monitoring every service, centralizes the logs from all of your systems, applications, and AWS services)
     G --> I(Cloud Watch Alarms, notifications of a metrics)
     G --> J(X-Ray, analyze an debug production)
     G --> K(Cloud Trail, inspect, audit and record events and API callas made within your AWS account, investigate first if )
-    G --> L(CodeGuru, service automatically analyzes code and provide performance recommendations)
-    G --> M(AWS Healt Dashboard, remediation guidance)
+    N(Cloud Watch) --> L(CodeGuru, service automatically analyzes code and provide performance recommendations)
+    N --> M(AWS Healt Dashboard, remediation guidance)
 ```
