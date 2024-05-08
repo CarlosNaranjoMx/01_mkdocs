@@ -2,9 +2,8 @@
 
 ```mermaid
 flowchart TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+    G(Cloud Computing) --> H(self-service)
+    G --> I(self-service)
+    G --> J(on-demand)
+    G --> K("Trade capital expense (CAPES) for operational expense (OPEX)")
 ```
