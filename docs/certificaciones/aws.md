@@ -1,11 +1,10 @@
 # AWS
 
 
-## 4 cloud computing
+## 3 cloud computing
 ```mermaid
 flowchart TD
     G(Cloud Computing) --> H(self-service)
-    G --> I(self-service)
     G --> J(on-demand)
     G --> K("Trade capital expense (CAPES) for operational expense (OPEX)")
 ```
@@ -18,4 +17,14 @@ flowchart TD
 ```mermaid
 flowchart TD
     G(Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?)
+```
+
+## 4 IAM Security tool
+```mermaid
+```mermaid
+flowchart TD
+    G(IAM Security tool) --> H("IAM Policies (jsons)")
+    G --> I(IAM  Credentias report)
+    G --> J(not root credentials)
+    G --> K(Assigning users proper IAM Policies)
 ```
