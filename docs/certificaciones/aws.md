@@ -28,13 +28,17 @@ flowchart TD
     G --> K(Assigning users proper IAM Policies)
 ```
 
-## 5 Cloud Watch
+## 14 Cloud Watch
 ```mermaid
 flowchart TD
     G(Cloud Watch) --> H(Monitoring every service, centralizes the logs from all of your systems, applications, and AWS services)
     G --> I(Cloud Watch Alarms, notifications of a metrics)
     G --> J(X-Ray, analyze an debug production)
-    G --> K(Cloud Trail, inspect, audit and record events and API callas made within your AWS account, investigate first if )
+    
+```
+```mermaid
+flowchart TD
     N(Cloud Watch) --> L(CodeGuru, service automatically analyzes code and provide performance recommendations)
     N --> M(AWS Healt Dashboard, remediation guidance)
+    N --> K(Cloud Trail, inspect, audit and record events and API callas made within your AWS account, investigate first if )
 ```
