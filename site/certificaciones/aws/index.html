@@ -95,6 +95,10 @@
 <ul class="nav flex-column">
 </ul>
 </li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#5-cloud-watch">5 Cloud Watch</a>
+<ul class="nav flex-column">
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -117,12 +121,30 @@
     G(Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?)
 </div>
 <h2 id="4-iam-security-tool">4 IAM Security tool</h2>
-<div class="mermaid">```mermaid
-flowchart TD
+<div class="mermaid">flowchart TD
     G(IAM Security tool) --&gt; H("IAM Policies (jsons)")
     G --&gt; I(IAM  Credentias report)
     G --&gt; J(not root credentials)
     G --&gt; K(Assigning users proper IAM Policies)
+</div>
+<h2 id="5-cloud-watch">5 Cloud Watch</h2>
+<!-- ```mermaid
+flowchart TD
+    G(Cloud Watch) -->
+<p>H()
+    G --&gt; I()
+    G --&gt; J()
+    G --&gt; K()
+    G --&gt; L()
+    G --&gt; M()
+``` --&gt;</p>
+<div class="mermaid">flowchart TD
+    G(Cloud Watch) --&gt; H(Monitoring every service, centralizes the logs from all of your systems, applications, and AWS services)
+    G --&gt; I(Cloud Watch Alarms, notifications of a metrics)
+    G --&gt; J(X-Ray, analyze an debug production)
+    G --&gt; K(Cloud Trail, inspect, audit and record events and API callas made within your AWS account, investigate first if )
+    G --&gt; L(CodeGuru, service automatically analyzes code and provide performance recommendations)
+    G --&gt; M(AWS Healt Dashboard, remediation guidance)
 </div></div>
 </div>
 </div>
