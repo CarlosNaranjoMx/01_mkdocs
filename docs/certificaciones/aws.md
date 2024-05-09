@@ -32,7 +32,7 @@ flowchart TD
     G(IAM Security tool) --> H("MFA ")
 ```
 
-## 5 Elastic Load Balancing & Auto Scaling Groups
+## 7 Elastic Load Balancing & Auto Scaling Groups
 
 ```mermaid
 flowchart TD
@@ -61,7 +61,21 @@ flowchart TD
     G(Auto Scaling Groups) --> H(scale-in scale-out)
     G --> H(No change EC2 types)
 ```
+## 8 Amazon S3
 
+```mermaid
+flowchart TD
+    G(Amazon Glacier Deep Archives) --> H(cost-effective option)
+```
+```mermaid
+flowchart TD
+    G(AWS Storage Gateway) --> H(hybrid cloud storage)
+    G --> H(on-premises)
+```
+```mermaid
+flowchart TD
+    G(Snowball Edge) --> H(move petabytes)
+```
 
 ## 14 Cloud Watch
 ```mermaid
