@@ -3,7 +3,7 @@ site_name: My Docs
 nav:
   - Home: index.md
   - Lenguajes: 
-    -Python: lenguajes/python.md
+    - Python: lenguajes/python.md
   - Ceritificaciones:
     - Aws: certificaciones/aws.md
   - Diseño: design/design.md  # Agrega esta línea

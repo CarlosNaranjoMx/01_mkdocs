@@ -34,8 +34,13 @@
 <li class="nav-item">
 <a class="nav-link" href="../..">Home</a>
 </li>
-<li class="nav-item">
-<a class="nav-link" href="../../lenguajes/python/">Lenguajes</a>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Lenguajes</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../lenguajes/python/">Python</a>
+</li>
+</ul>
 </li>
 <li class="nav-item dropdown">
 <a aria-current="page" aria-expanded="false" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button">Ceritificaciones</a>
@@ -48,11 +53,32 @@
 <li class="nav-item">
 <a class="nav-link" href="../../design/design/">Diseño</a>
 </li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">DevOps</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../devops/git/">Git</a>
+</li>
+</ul>
+</li>
 <li class="nav-item">
 <a class="nav-link" href="../../so/programas/">So</a>
 </li>
-<li class="nav-item">
-<a class="nav-link" href="../../tools/tools/">Tools</a>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Idiomas</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../idiomas/espa%C3%B1ol/">Español</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">Tools</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../tools/tools/">Paginas</a>
+</li>
+</ul>
 </li>
 </ul>
 <ul class="nav navbar-nav ms-md-auto">
@@ -95,6 +121,10 @@
 <ul class="nav flex-column">
 </ul>
 </li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#5-elastic-load-balancing-auto-scaling-groups">5 Elastic Load Balancing &amp; Auto Scaling Groups</a>
+<ul class="nav flex-column">
+</ul>
+</li>
 <li class="nav-item" data-bs-level="2"><a class="nav-link" href="#14-cloud-watch">14 Cloud Watch</a>
 <ul class="nav flex-column">
 </ul>
@@ -134,6 +164,25 @@
     G --&gt; I(IAM  Credentias report)
     G --&gt; J(not root credentials)
     G --&gt; K(Assigning users proper IAM Policies)
+</div>
+<div class="mermaid">flowchart TD
+    G(IAM Security tool) --&gt; H("MFA ")
+</div>
+<h2 id="5-elastic-load-balancing-auto-scaling-groups">5 Elastic Load Balancing &amp; Auto Scaling Groups</h2>
+<div class="mermaid">flowchart TD
+    G(High Availability) --&gt; H(thriving)
+</div>
+<div class="mermaid">flowchart TD
+    G(Network Load Balancer) --&gt; H(hundred of thousand)
+    G --&gt; |no equal| I
+    I(Aplication Load Balancer) --&gt; J(Http &amp; https)
+</div>
+<div class="mermaid">flowchart TD
+    G(Vertical Scaling) --&gt; H(size increase)
+</div>
+<div class="mermaid">flowchart TD
+    G(Auto Scaling Groups) --&gt; H(scale-in scale-out)
+    G --&gt; H(No change EC2 types)
 </div>
 <h2 id="14-cloud-watch">14 Cloud Watch</h2>
 <div class="mermaid">flowchart TD
