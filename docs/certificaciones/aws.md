@@ -145,7 +145,7 @@ flowchart TD
 ```
 ```mermaid
 flowchart TD
-    N(Amazon Lex) --> L(provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text)
+    N(Amazon Lex) --> L(provides the advanced deep learning functionalities of automatic speech recognition \(ASR\) for converting speech to text)
 ```
 ```mermaid
 flowchart TD
