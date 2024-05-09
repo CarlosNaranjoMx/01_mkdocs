@@ -46,6 +46,10 @@ flowchart TD
 ```
 ```mermaid
 flowchart TD
+    G(Auto Scaling Strategy) --> |no equal| Active Scaling
+```
+```mermaid
+flowchart TD
     G(Vertical Scaling) --> H(size increase)
 ```
 ```mermaid
@@ -53,6 +57,7 @@ flowchart TD
     G(Auto Scaling Groups) --> H(scale-in scale-out)
     G --> H(No change EC2 types)
 ```
+
 
 ## 14 Cloud Watch
 ```mermaid
