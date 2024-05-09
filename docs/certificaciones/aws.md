@@ -43,3 +43,11 @@ flowchart TD
     N --> K(Cloud Trail, inspect, audit and record events and API callas made within your AWS account, investigate first if )
 ```
 ## 15 Network Access Control List (NACL)
+- NAT Gateways, allow your instances in your private subnet to access the Internet while remaining private
+- public and private subnet
+- Site-toSite VPN, it's not public
+- Internet gateway, horizontally scaled, redundant, and highly available VPC component
+- AWS Direct Connect, makes it easy to establish a dedicated private network connection
+- VPC Peering, communicate with each other
+- VPC, (virtual private cloud)
+- Transit Gateway, connect hundred of VPC
