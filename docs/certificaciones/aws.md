@@ -65,6 +65,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     G(Amazon S3) --> H(buckets)
+    G --> H(Amazon S3 Standard-Infrequent Access)
 ```
 ```mermaid
 flowchart TD
@@ -78,6 +79,7 @@ flowchart TD
 ```mermaid
 flowchart TD
     G(Snowball Edge) --> H(move petabytes)
+    G(Snowball Edge) --> H(Storage Edge Storage Optimized, large-scale data migrations and recurring transfer workflows)
 ```
 
 ```mermaid
@@ -87,7 +89,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    G(AWS Snowcone) --> H(edge computing and data transfer device, 8 TB of usable storage)
+    G(AWS Snowcone) --> H(edge computing and data transfer device, 8 TB of usable storage,cloud)
 ```
 ```mermaid
 flowchart TD
@@ -134,3 +136,22 @@ flowchart TD
 - GuardDuty,  is a threat detection service that continuously monitors for malicious activity and unauthorized behavior 
 - Losing your MFA device not contact AWS abuse Team ¿
 - The situations where you should contact the AWS Abuse team are: Spam, Port scanning, DoS or DDoS attacks, Intrusion attempts, Hosting objectionable or copyrighted content, Distributing malware.
+
+## 17 Machine Learning
+```mermaid
+flowchart TD
+    N(Amazon Transcribe) --> L(speech-to-text)
+    M(Amazon Polly) --> O(text into lifelike speech)
+```
+```mermaid
+flowchart TD
+    N(Amazon Lex) --> L(provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text)
+```
+```mermaid
+flowchart TD
+    N(Amazon Forecast) --> L(uses machine learning to deliver highly accurate forecasts) 
+```
+```mermaid
+flowchart TD
+    N(Amazon Rekognition) --> L(makes it easy to add image and video analysis to your applications using proven) 
+```

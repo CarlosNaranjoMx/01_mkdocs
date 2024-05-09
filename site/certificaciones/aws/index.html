@@ -149,6 +149,10 @@
 <ul class="nav flex-column">
 </ul>
 </li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#17-machine-learning">17 Machine Learning</a>
+<ul class="nav flex-column">
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -205,6 +209,7 @@
 <h2 id="8-amazon-s3">8 Amazon S3</h2>
 <div class="mermaid">flowchart TD
     G(Amazon S3) --&gt; H(buckets)
+    G --&gt; H(Amazon S3 Standard-Infrequent Access)
 </div>
 <div class="mermaid">flowchart TD
     G(Amazon Glacier Deep Archives) --&gt; H(cost-effective option)
@@ -215,12 +220,13 @@
 </div>
 <div class="mermaid">flowchart TD
     G(Snowball Edge) --&gt; H(move petabytes)
+    G(Snowball Edge) --&gt; H(Storage Edge Storage Optimized, large-scale data migrations and recurring transfer workflows)
 </div>
 <div class="mermaid">flowchart TD
     G(AWS CLI or AWS API) --&gt; H(Access Keys)
 </div>
 <div class="mermaid">flowchart TD
-    G(AWS Snowcone) --&gt; H(edge computing and data transfer device, 8 TB of usable storage)
+    G(AWS Snowcone) --&gt; H(edge computing and data transfer device, 8 TB of usable storage,cloud)
 </div>
 <div class="mermaid">flowchart TD
     G(storage class) --&gt; H(Lifecycle Rules)
@@ -266,7 +272,21 @@
 <li>GuardDuty,  is a threat detection service that continuously monitors for malicious activity and unauthorized behavior </li>
 <li>Losing your MFA device not contact AWS abuse Team ¿</li>
 <li>The situations where you should contact the AWS Abuse team are: Spam, Port scanning, DoS or DDoS attacks, Intrusion attempts, Hosting objectionable or copyrighted content, Distributing malware.</li>
-</ul></div>
+</ul>
+<h2 id="17-machine-learning">17 Machine Learning</h2>
+<div class="mermaid">flowchart TD
+    N(Amazon Transcribe) --&gt; L(speech-to-text)
+    M(Amazon Polly) --&gt; O(text into lifelike speech)
+</div>
+<div class="mermaid">flowchart TD
+    N(Amazon Lex) --&gt; L(provides the advanced deep learning functionalities of automatic speech recognition (ASR) for converting speech to text)
+</div>
+<div class="mermaid">flowchart TD
+    N(Amazon Forecast) --&gt; L(uses machine learning to deliver highly accurate forecasts) 
+</div>
+<div class="mermaid">flowchart TD
+    N(Amazon Rekognition) --&gt; L(makes it easy to add image and video analysis to your applications using proven) 
+</div></div>
 </div>
 </div>
 <footer class="col-md-12">
