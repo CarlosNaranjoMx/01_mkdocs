@@ -46,7 +46,7 @@ flowchart TD
 ```
 ```mermaid
 flowchart TD
-    G(Auto Scaling Strategy) --> |no equal| Active Scaling
+    G(Auto Scaling Strategy) --> |no equal| H(Active Scaling)
 ```
 ```mermaid
 flowchart TD
