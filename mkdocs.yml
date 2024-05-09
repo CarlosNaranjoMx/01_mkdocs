@@ -10,6 +10,8 @@ nav:
   - DevOps:
     - Git: devops/git.md
   - So: so/programas.md
+  - Idiomas:
+    - Español: idiomas/español.md
   - Tools: 
     - Paginas: tools/tools.md
 
