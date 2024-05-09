@@ -1,6 +1,7 @@
 # Español
 
 ## verbos
+-----
 | español | ingles| diptongos |
 -----
 | ondulante | billow | |

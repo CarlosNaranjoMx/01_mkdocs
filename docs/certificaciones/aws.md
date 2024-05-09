@@ -62,7 +62,10 @@ flowchart TD
     G --> H(No change EC2 types)
 ```
 ## 8 Amazon S3
-
+```mermaid
+flowchart TD
+    G(Amazon S3) --> H(buckets)
+```
 ```mermaid
 flowchart TD
     G(Amazon Glacier Deep Archives) --> H(cost-effective option)
@@ -77,6 +80,19 @@ flowchart TD
     G(Snowball Edge) --> H(move petabytes)
 ```
 
+```mermaid
+flowchart TD
+    G(AWS CLI or AWS API) --> H(Access Keys)
+```
+
+```mermaid
+flowchart TD
+    G(AWS Snowcone) --> H(edge computing and data transfer device, 8 TB of usable storage)
+```
+```mermaid
+flowchart TD
+    G(storage class) --> H(Lifecycle Rules)
+```
 ## 14 Cloud Watch
 ```mermaid
 flowchart TD
