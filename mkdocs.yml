@@ -2,12 +2,16 @@ site_name: My Docs
 
 nav:
   - Home: index.md
-  - Lenguajes: lenguajes/python.md
+  - Lenguajes: 
+    -Python: lenguajes/python.md
   - Ceritificaciones:
     - Aws: certificaciones/aws.md
   - Diseño: design/design.md  # Agrega esta línea
+  - DevOps:
+    - Git: devops/git.md
   - So: so/programas.md
-  - Tools: tools/tools.md
+  - Tools: 
+    - Paginas: tools/tools.md
 
 extra_css:
   - stylesheet/extra.css
