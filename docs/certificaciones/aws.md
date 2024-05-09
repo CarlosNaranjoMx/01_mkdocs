@@ -27,6 +27,32 @@ flowchart TD
     G --> J(not root credentials)
     G --> K(Assigning users proper IAM Policies)
 ```
+```mermaid
+flowchart TD
+    G(IAM Security tool) --> H("MFA ")
+```
+
+## 5 Elastic Load Balancing & Auto Scaling Groups
+
+```mermaid
+flowchart TD
+    G(High Availability) --> H(thriving)
+```
+```mermaid
+flowchart TD
+    G(Network Load Balancer) --> H(hundred of thousand)
+    G --> |no equal| I
+    I(Aplication Load Balancer) --> J(Http & https)
+```
+```mermaid
+flowchart TD
+    G(Vertical Scaling) --> H(size increase)
+```
+```mermaid
+flowchart TD
+    G(Auto Scaling Groups) --> H(scale-in scale-out)
+    G --> H(No change EC2 types)
+```
 
 ## 14 Cloud Watch
 ```mermaid
