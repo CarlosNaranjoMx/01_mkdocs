@@ -50,6 +50,10 @@ flowchart TD
 ```
 ```mermaid
 flowchart TD
+    G(Load Balancers) --> |no equal| Auto Scaling Groups
+```
+```mermaid
+flowchart TD
     G(Vertical Scaling) --> H(size increase)
 ```
 ```mermaid
