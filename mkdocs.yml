@@ -17,6 +17,7 @@ nav:
   - Tools: 
     - Paginas: tools/tools.md
   - Diseño: design/design.md  # Agrega esta línea
+    - SpinePro: design/spine_pro.md
 
 extra_css:
   - stylesheet/extra.css
