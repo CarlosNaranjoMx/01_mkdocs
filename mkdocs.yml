@@ -3,7 +3,7 @@ site_name: My Docs
 nav:
   - Home: index.md
   - Ceritificaciones:
-    - Certificaciones: certificaciones/certificaciones.md
+    - General: certificaciones/certificaciones.md
     - Aws: certificaciones/aws.md
   - Lenguajes: 
     - Python: lenguajes/python.md
