@@ -2,9 +2,9 @@ site_name: My Docs
 
 nav:
   - Home: index.md
-  - Ceritificaciones:
-    - General: certificaciones/certificaciones.md
-    - Aws: certificaciones/aws.md
+  - 'Ceritificaciones':
+    - 'General': 'certificaciones/certificaciones.md'
+    - 'Aws': 'certificaciones/aws.md'
   - Lenguajes: 
     - Python: lenguajes/python.md
     - Powershell: lenguajes/powershell.md
