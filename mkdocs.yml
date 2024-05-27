@@ -17,7 +17,8 @@ nav:
     - Español: idiomas/español.md
   - Tools: 
     - Paginas: tools/tools.md
-  - Diseño: design/design.md  # Agrega esta línea
+  - Design:
+    - Design: design/design.md
     - SpinePro: design/spine_pro.md
 
 extra_css:
