@@ -8,6 +8,7 @@ nav:
   - Lenguajes: 
     - Python: lenguajes/python.md
     - Powershell: lenguajes/powershell.md
+    - Django: lenguajes/django.md
   - DevOps:
     - Git: devops/git.md
   - So: so/programas.md
@@ -17,6 +18,7 @@ nav:
     - Español: idiomas/español.md
   - Tools: 
     - Paginas: tools/tools.md
+    - Colabs: tools/colabs.md
   - Design:
     - Design: design/design.md
     - SpinePro: design/spine_pro.md

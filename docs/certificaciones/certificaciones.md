@@ -25,4 +25,6 @@
 |22| threejs-tutorials|8h| udemy |[threejs](https://www.udemy.com/course/threejs-tutorials)|98%|
 |21| Oracle Fusion Technical - A complete technical guide | 16.5 hours | udemy | [oracletech](https://www.udemy.com/course/oracle-fusion-cloud-erp-technical-with-oracle-soa-java/learn) | |
 |22|php-for-complete-beginners-includes-msql-object-oriented|37h | udemy |[php](https://www.udemy.com/course/php-for-complete-beginners-includes-msql-object-oriented)|39.34%| 
+|23|jamstack|4.5h| udemy |[jamstack](https://www.udemy.com/course/jamstack/)||
+|24|oracle-ebs-essentials-course-r12|10h| udemy |[oracle-ebs-essentials-course-r12](https://www.udemy.com/course/oracle-ebs-essentials-course-r12/)|100%|
 | | | | udemy | ||
