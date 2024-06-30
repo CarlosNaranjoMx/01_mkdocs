@@ -155,3 +155,4 @@ flowchart TD
 flowchart TD
     N(Amazon Rekognition) --> L(makes it easy to add image and video analysis to your applications using proven) 
 ```
+final del archivo

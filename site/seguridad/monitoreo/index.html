@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>python - My Docs</title>
+        <title>monitoreo - My Docs</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/fontawesome.min.css" rel="stylesheet">
         <link href="../../css/brands.min.css" rel="stylesheet">
@@ -52,23 +52,23 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">lenguajes</a>
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">lenguajes</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../android/" class="dropdown-item">android</a>
+    <a href="../../lenguajes/android/" class="dropdown-item">android</a>
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">python</a>
+    <a href="../../lenguajes/python/" class="dropdown-item">python</a>
 </li>
                                     
 <li>
-    <a href="../powershell/" class="dropdown-item">powershell</a>
+    <a href="../../lenguajes/powershell/" class="dropdown-item">powershell</a>
 </li>
                                     
 <li>
-    <a href="../django/" class="dropdown-item">django</a>
+    <a href="../../lenguajes/django/" class="dropdown-item">django</a>
 </li>
                                 </ul>
                             </li>
@@ -161,15 +161,15 @@
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">seguridad</a>
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">seguridad</a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../seguridad/monitoreo/" class="dropdown-item">monitoreo</a>
+    <a href="./" class="dropdown-item active" aria-current="page">monitoreo</a>
 </li>
                                     
 <li>
-    <a href="../../seguridad/seguridad/" class="dropdown-item">seguridad</a>
+    <a href="../seguridad/" class="dropdown-item">seguridad</a>
 </li>
                                 </ul>
                             </li>
@@ -204,12 +204,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../android/" class="nav-link">
+                                <a rel="prev" href="../../editores/linux/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../powershell/" class="nav-link">
+                                <a rel="next" href="../seguridad/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -231,20 +231,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#python" class="nav-link">Python</a>
+            <li class="nav-item" data-bs-level="1"><a href="#monitoreo" class="nav-link">Monitoreo</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#creacion-de-un-env" class="nav-link">Creación de un env</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#instalacion-de-pyspark" class="nav-link">Instalación de pyspark</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#instalacion-mkdocs" class="nav-link">Instalación mkdocs</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -252,19 +240,22 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="python">Python</h1>
-<h2 id="creacion-de-un-env">Creación de un env</h2>
-<pre><code>python3 -m venv nombre_del_entorno
-</code></pre>
-<h2 id="instalacion-de-pyspark">Instalación de pyspark</h2>
-<pre><code>pip install pyspark
-</code></pre>
-<h2 id="instalacion-mkdocs">Instalación mkdocs</h2>
-<ul>
-<li>Tesseract OCR: convertir imagenes a texto
-\n</li>
-<li>pdf2image: convierte archivos pdf's a imagenes</li>
-</ul></div>
+<h1 id="monitoreo">Monitoreo</h1>
+<ol>
+<li>Listar Procesos en Ejecución
+Revisa los procesos en ejecución para identificar alguno que no reconozcas.</li>
+</ol>
+<p>Get-Process | Sort-Object CPU -Descending | Select-Object -First 10
+2. Verificar Conexiones de Red
+Lista las conexiones de red activas y escucha puertos para identificar conexiones sospechosas.</p>
+<p>Get-NetTCPConnection -State Listen, Established | Sort-Object -Property State
+3. Revisar Tareas Programadas
+Las puertas traseras a menudo crean tareas programadas para mantenerse persistentes.</p>
+<p>Get-ScheduledTask | Where-Object {.State -eq 'Ready'}
+4. Buscar Programas que se Ejecutan al Iniciar el Sistema
+Revisa los programas que se inician al arrancar el sistema.</p>
+<p>Get-ItemProperty -Path "HKLM:\Software\Microsoft\Windows\CurrentVersion\Run"
+Get-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run"</p></div>
             </div>
         </div>
 

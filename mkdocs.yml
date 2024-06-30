@@ -31,7 +31,13 @@ nav:
   - editores :
     - linux : editores/linux.md
   - seguridad :
+    - monitoreo : seguridad/monitoreo.md
     - seguridad : seguridad/seguridad.md
+  - hardware :
+    - amd-raizen-9-7900 : hardware/amd-raizen-9-7900.md
+    - particiones : hardware/particiones.md
+  - certificaciones :
+    - aws : certificaciones/aws.md
 # hola
 
 extra_css:
