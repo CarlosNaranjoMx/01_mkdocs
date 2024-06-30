@@ -30,6 +30,8 @@ nav:
     - vi : ides/vi.md
   - editores :
     - linux : editores/linux.md
+  - seguridad :
+    - seguridad : seguridad/seguridad.md
 # hola
 
 extra_css:
