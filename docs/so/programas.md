@@ -30,3 +30,4 @@ choco install pandoc
 
 ## boot
 - rufus
+- etcher
