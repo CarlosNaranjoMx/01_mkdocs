@@ -16,6 +16,7 @@ nav:
     - cables : so/cables.md
   - ides:
     - vscode: ides/vscode.md
+    - vi : ides/vi.md
   - idiomas:
     - español: idiomas/español.md
   - tools: 
@@ -26,6 +27,12 @@ nav:
     - spinePro: design/spine_pro.md
   - so :
     - cables : so/cables.md
+  - lenguajes :
+    - django : lenguajes/django.md
+  - ides :
+    - vi : ides/vi.md
+  - editores :
+    - linux : editores/linux.md
 # hola
 
 extra_css:
