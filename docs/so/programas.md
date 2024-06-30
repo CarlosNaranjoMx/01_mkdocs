@@ -28,3 +28,5 @@ choco install pandoc
 
 ## `adb`
 
+## boot
+- rufus

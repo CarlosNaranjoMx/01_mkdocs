@@ -2,16 +2,17 @@ site_name: My Docs
 
 nav:
   - Home: index.md
-  - 'Ceritificaciones':
-    - 'General': 'certificaciones/certificaciones.md'
-    - 'Aws': 'certificaciones/aws.md'
+  - Ceritificaciones:
+    - General: 'certificaciones/certificaciones.md'
+    - Aws: 'certificaciones/aws.md'
   - Lenguajes: 
     - Python: lenguajes/python.md
     - Powershell: lenguajes/powershell.md
     - Django: lenguajes/django.md
   - DevOps:
     - Git: devops/git.md
-  - So: so/programas.md
+  - So: 
+    - So: so/programas.md
   - IDES:
     - Vscode: ides/vscode.md
   - Idiomas:
@@ -22,6 +23,7 @@ nav:
   - Design:
     - Design: design/design.md
     - SpinePro: design/spine_pro.md
+# hola
 
 extra_css:
   - stylesheet/extra.css
