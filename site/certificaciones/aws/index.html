@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html data-bs-theme="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>aws - My Docs</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../../css/fontawesome.min.css" rel="stylesheet"/>
+<link href="../../css/brands.min.css" rel="stylesheet"/>
+<link href="../../css/solid.min.css" rel="stylesheet"/>
+<link href="../../css/v4-font-face.min.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" id="hljs-light" rel="stylesheet"/>
+<link disabled="" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" id="hljs-dark" rel="stylesheet"/>
+<link href="../../stylesheet/extra.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</head>
+<body>
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand" href="../..">My Docs</a>
+<!-- Expander button -->
+<button aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar-collapse" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Expanded navigation -->
+<div class="navbar-collapse collapse" id="navbar-collapse">
+<!-- Main navigation -->
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="../..">Home</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-current="page" aria-expanded="false" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button">ceritificaciones</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../certificaciones/">general</a>
+</li>
+<li>
+<a aria-current="page" class="dropdown-item active" href="./">aws</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">lenguajes</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../lenguajes/android/">android</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../lenguajes/python/">python</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../lenguajes/powershell/">powershell</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../lenguajes/django/">django</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">devops</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../devops/git/">git</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">so</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../so/programas/">so</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../so/cables/">cables</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">ides</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../ides/vscode/">vscode</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../ides/vi/">vi</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">idiomas</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../idiomas/espa%C3%B1ol/">español</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">tools</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../tools/tools/">paginas</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../tools/colabs/">colabs</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">design</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../design/design/">design</a>
+</li>
+<li>
+<a class="dropdown-item" href="../../design/spine_pro/">spinePro</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">ides</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../ides/vi/">vi</a>
+</li>
+</ul>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">editores</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="../../editores/linux/">linux</a>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="nav navbar-nav ms-md-auto">
+<li class="nav-item">
+<a class="nav-link" data-bs-target="#mkdocs_search_modal" data-bs-toggle="modal" href="#">
+<i class="fa fa-search"></i> Search
+                            </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../certificaciones/" rel="prev">
+<i class="fa fa-arrow-left"></i> Previous
+                                </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="../../lenguajes/android/" rel="next">
+                                    Next <i class="fa fa-arrow-right"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="navbar-header">
+<button class="navbar-toggler collapsed" data-bs-target="#toc-collapse" data-bs-toggle="collapse" title="Table of Contents" type="button">
+<span class="fa fa-angle-down"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse card bg-body-tertiary" id="toc-collapse">
+<ul class="nav flex-column">
+<li class="nav-item" data-bs-level="1"><a class="nav-link" href="#aws">AWS</a>
+<ul class="nav flex-column">
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#3-cloud-computing">3 cloud computing</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#4-iam-security-tool">4 IAM Security tool</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#7-elastic-load-balancing-auto-scaling-groups">7 Elastic Load Balancing &amp; Auto Scaling Groups</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#8-amazon-s3">8 Amazon S3</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#14-cloud-watch">14 Cloud Watch</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#15-network-access-control-list-nacl">15 Network Access Control List (NACL)</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#16-rds-data-at-rest">16 RDS, data at rest</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#17-machine-learning">17 Machine Learning</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+<div class="col-md-9" role="main">
+<h1 id="aws">AWS</h1>
+<h2 id="3-cloud-computing">3 cloud computing</h2>
+<div class="mermaid">flowchart TD
+    G(Cloud Computing) --&gt; H(self-service)
+    G --&gt; J(on-demand)
+    G --&gt; K("Trade capital expense (CAPES) for operational expense (OPEX)")
+</div>
+<div class="mermaid">flowchart TD
+    G(AWS Cloud) --&gt; H(The shared responsibility model)
+    G --&gt; I(What defines the distribution of responsibilities for security in the AWS Cloud?)
+    G --&gt; J(The shared Responsibility Model)
+</div>
+<div class="mermaid">flowchart TD
+    G(Which Global Infrastructure identity is composed of one or more discrete data centers with redundant power, networking, and connectivity, and are used to deploy infrastructure?)
+</div>
+<h2 id="4-iam-security-tool">4 IAM Security tool</h2>
+<div class="mermaid">flowchart TD
+    G(IAM Security tool) --&gt; H("IAM Policies (jsons)")
+    G --&gt; I(IAM  Credentias report)
+    G --&gt; J(not root credentials)
+    G --&gt; K(Assigning users proper IAM Policies)
+</div>
+<div class="mermaid">flowchart TD
+    G(IAM Security tool) --&gt; H("MFA ")
+</div>
+<h2 id="7-elastic-load-balancing-auto-scaling-groups">7 Elastic Load Balancing &amp; Auto Scaling Groups</h2>
+<div class="mermaid">flowchart TD
+    G(High Availability) --&gt; H(thriving)
+</div>
+<div class="mermaid">flowchart TD
+    G(Network Load Balancer) --&gt; H(hundred of thousand)
+    G --&gt; |no equal| I
+    I(Aplication Load Balancer) --&gt; J(Http &amp; https)
+</div>
+<div class="mermaid">flowchart TD
+    G(Auto Scaling Strategy) --&gt; |no equal| H(Active Scaling)
+</div>
+<div class="mermaid">flowchart TD
+    G(Load Balancers) --&gt; |no equal| H(Auto Scaling Groups)
+</div>
+<div class="mermaid">flowchart TD
+    G(Vertical Scaling) --&gt; H(size increase)
+</div>
+<div class="mermaid">flowchart TD
+    G(Auto Scaling Groups) --&gt; H(scale-in scale-out)
+    G --&gt; H(No change EC2 types)
+</div>
+<h2 id="8-amazon-s3">8 Amazon S3</h2>
+<div class="mermaid">flowchart TD
+    G(Amazon S3) --&gt; H(buckets)
+    G --&gt; H(Amazon S3 Standard-Infrequent Access)
+</div>
+<div class="mermaid">flowchart TD
+    G(Amazon Glacier Deep Archives) --&gt; H(cost-effective option)
+</div>
+<div class="mermaid">flowchart TD
+    G(AWS Storage Gateway) --&gt; H(hybrid cloud storage)
+    G --&gt; H(on-premises)
+</div>
+<div class="mermaid">flowchart TD
+    G(Snowball Edge) --&gt; H(move petabytes)
+    G(Snowball Edge) --&gt; H(Storage Edge Storage Optimized, large-scale data migrations and recurring transfer workflows)
+</div>
+<div class="mermaid">flowchart TD
+    G(AWS CLI or AWS API) --&gt; H(Access Keys)
+</div>
+<div class="mermaid">flowchart TD
+    G(AWS Snowcone) --&gt; H(edge computing and data transfer device, 8 TB of usable storage,cloud)
+</div>
+<div class="mermaid">flowchart TD
+    G(storage class) --&gt; H(Lifecycle Rules)
+</div>
+<h2 id="14-cloud-watch">14 Cloud Watch</h2>
+<div class="mermaid">flowchart TD
+    G(Cloud Watch) --&gt; H(Monitoring every service, centralizes the logs from all of your systems, applications, and AWS services)
+    G --&gt; I(Cloud Watch Alarms, notifications of a metrics)
+    G --&gt; J(X-Ray, analyze an debug production)
+
+</div>
+<div class="mermaid">flowchart TD
+    N(Cloud Watch) --&gt; L(CodeGuru, service automatically analyzes code and provide performance recommendations)
+    N --&gt; M(AWS Healt Dashboard, remediation guidance)
+    N --&gt; K(Cloud Trail, inspect, audit and record events and API callas made within your AWS account, investigate first if )
+</div>
+<h2 id="15-network-access-control-list-nacl">15 Network Access Control List (NACL)</h2>
+<ul>
+<li>NAT Gateways, allow your instances in your private subnet to access the Internet while remaining private</li>
+<li>public and private subnet</li>
+<li>Site-toSite VPN, it's not public</li>
+<li>Internet gateway, horizontally scaled, redundant, and highly available VPC component</li>
+<li>AWS Direct Connect, makes it easy to establish a dedicated private network connection</li>
+<li>VPC Peering, communicate with each other</li>
+<li>VPC, (virtual private cloud)</li>
+<li>Transit Gateway, connect hundred of VPC</li>
+</ul>
+<h2 id="16-rds-data-at-rest">16 RDS, data at rest</h2>
+<ul>
+<li>RDS, data at rest</li>
+<li>Macie, discover and protect sensitive data in AWS</li>
+<li>WAF Web Application firewall, protect against web exploits</li>
+<li>SSL y TLS (ACM) Certificate Manager</li>
+<li>The customer, firewall and configuration EC2 Instances</li>
+<li>Detective, find the root of potential security issues</li>
+<li>Inspector, automated security assessment service, helps to improve security and compliance of applications</li>
+<li>Artifact find on-demand access to AWS compliance documentation</li>
+<li>Penetration Testing is allowed without prior on 8 services. DDoS, port flooding and protocol flooding are examples of prohibited activities</li>
+<li>Security Hub, centrall automate security checks</li>
+<li>KMS, easily create and control the keys</li>
+<li>Access the billing dashboard not require the root user</li>
+<li>Shield, safeguard running aplications from DDoS attacks</li>
+<li>GuardDuty,  is a threat detection service that continuously monitors for malicious activity and unauthorized behavior </li>
+<li>Losing your MFA device not contact AWS abuse Team ¿</li>
+<li>The situations where you should contact the AWS Abuse team are: Spam, Port scanning, DoS or DDoS attacks, Intrusion attempts, Hosting objectionable or copyrighted content, Distributing malware.</li>
+</ul>
+<h2 id="17-machine-learning">17 Machine Learning</h2>
+<div class="mermaid">flowchart TD
+    N(Amazon Transcribe) --&gt; L(speech-to-text)
+    M(Amazon Polly) --&gt; O(text into lifelike speech)
+</div>
+<div class="mermaid">flowchart TD
+    N(Amazon Lex) --&gt; L(provides the advanced deep learning functionalities of automatic speech recognition \(ASR\) for converting speech to text)
+</div>
+<div class="mermaid">flowchart TD
+    N(Amazon Forecast) --&gt; L(uses machine learning to deliver highly accurate forecasts) 
+</div>
+<div class="mermaid">flowchart TD
+    N(Amazon Rekognition) --&gt; L(makes it easy to add image and video analysis to your applications using proven) 
+</div></div>
+</div>
+</div>
+<footer class="col-md-12">
+<hr/>
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+</footer>
+<script src="../../js/bootstrap.bundle.min.js"></script>
+<script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+<script src="../../js/base.js"></script>
+<script src="../../search/main.js"></script>
+<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="searchModalLabel">Search</h4>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<p>From here you can search these documents. Enter your search terms below.</p>
+<form>
+<div class="form-group">
+<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
+</div>
+</form>
+<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th style="width: 20%;">Keys</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="help shortcut"><kbd>?</kbd></td>
+<td>Open this help</td>
+</tr>
+<tr>
+<td class="next shortcut"><kbd>n</kbd></td>
+<td>Next page</td>
+</tr>
+<tr>
+<td class="prev shortcut"><kbd>p</kbd></td>
+<td>Previous page</td>
+</tr>
+<tr>
+<td class="search shortcut"><kbd>s</kbd></td>
+<td>Search</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+<script type="module">import mermaid from "https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs";
+mermaid.initialize({});</script></body>
+</html>
