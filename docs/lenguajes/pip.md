@@ -1,7 +1,4 @@
-﻿
-ERROR   -  Config value 'plugins': The 
-
-pip install mkdocs
+﻿pip install mkdocs
 
 pip install mermaid2
 
