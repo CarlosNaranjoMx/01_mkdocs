@@ -11,4 +11,7 @@ python3 -m venv nombre_del_entorno
 pip install pyspark
 ```
 
-## Instalación mkdocs- Tesseract OCR: convertir imagenes a texto
+## Instalación mkdocs
+- Tesseract OCR: convertir imagenes a texto
+\n
+- pdf2image: convierte archivos pdf's a imagenes
