@@ -2,33 +2,29 @@ site_name: My Docs
 
 nav:
   - Home: index.md
-  - ceritificaciones:
-    - general: certificaciones/certificaciones.md
-    - aws: certificaciones/aws.md
-  - lenguajes: 
-    - python: lenguajes/python.md
-    - powershell: lenguajes/powershell.md
-    - django: lenguajes/django.md
-  - devOps:
-    - git: devops/git.md
-  - so: 
-    - so: so/programas.md
-    - cables : so/cables.md
-  - ides:
-    - vscode: ides/vscode.md
-    - vi : ides/vi.md
-  - idiomas:
-    - español: idiomas/español.md
-  - tools: 
-    - paginas: tools/tools.md
-    - colabs: tools/colabs.md
-  - design:
-    - design: design/design.md
-    - spinePro: design/spine_pro.md
-  - so :
-    - cables : so/cables.md
-  - lenguajes :
+  - ceritificaciones :
+    - general : certificaciones/certificaciones.md
+    - aws : certificaciones/aws.md
+  - lenguajes : 
+    - python : lenguajes/python.md
+    - powershell : lenguajes/powershell.md
     - django : lenguajes/django.md
+  - devops :
+    - git : devops/git.md
+  - so : 
+    - so : so/programas.md
+    - cables  : so/cables.md
+  - ides :
+    - vscode : ides/vscode.md
+    - vi  : ides/vi.md
+  - idiomas :
+    - español : idiomas/español.md
+  - tools : 
+    - paginas : tools/tools.md
+    - colabs : tools/colabs.md
+  - design :
+    - design : design/design.md
+    - spinePro : design/spine_pro.md
   - ides :
     - vi : ides/vi.md
   - editores :
