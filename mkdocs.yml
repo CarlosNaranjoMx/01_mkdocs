@@ -34,6 +34,7 @@ nav:
     - monitoreo : seguridad/monitoreo.md
     - seguridad : seguridad/seguridad.md
   - hardware :
+    - asus-desktop : hardware/asus-desktop.md
     - amd-raizen-9-7900 : hardware/amd-raizen-9-7900.md
     - particiones : hardware/particiones.md
   - certificaciones :
