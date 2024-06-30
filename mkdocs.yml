@@ -1,11 +1,15 @@
 site_name: My Docs
 
+theme:
+  name: 'material'
+
 nav:
   - Home: index.md
   - ceritificaciones :
     - general : certificaciones/certificaciones.md
     - aws : certificaciones/aws.md
   - lenguajes : 
+    - pip : lenguajes/pip.md
     - android : lenguajes/android.md
     - python : lenguajes/python.md
     - powershell : lenguajes/powershell.md
